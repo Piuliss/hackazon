@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Hackazon</string>
-    <string name="about_text">Copyright © NTObjectives 2014</string>
+    <string name="app_name">Point of View</string>
+    <string name="about_text">Copyright © Point of View 2020</string>
     <string name="activity_about_label">About</string>
     <string name="settings_username">Username</string>
     <string name="settings_username_summary">Username of the user on the website.</string>
@@ -26,7 +26,7 @@
     <string name="status">Status</string>
     <string name="order_num">Order №</string>
     <string name="created_at">Created At</string>
-    <string name="login_welcome_text">Welcome to Hackazon!
+    <string name="login_welcome_text">Welcome to Point of View!
         \nPlease provide the host and your credentials:</string>
     <string name="activity_login_label">Authorization</string>
     <string name="log_in">Log In</string>
