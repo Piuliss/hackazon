@@ -2,7 +2,7 @@
 
 return array(
 	'default' => array(
-		'user'=>'hackazon',
+		'user'=> $_ENV["HACKAZON_USER"],
 		'password' => 'yourdbpass',
 		'driver' => 'PDOV',
 		
