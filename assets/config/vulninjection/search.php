@@ -11,7 +11,7 @@ return array(
     'vulnerabilities' => [
         'sql' => [ 
             'enabled' => true,
-            'blind' => true
+            'blind' => false
         ],
     ]
 );
