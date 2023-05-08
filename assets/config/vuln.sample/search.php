@@ -5,25 +5,30 @@ return array (
     'technology' => 'web',
     'mapped_to' => 'search',
     'storage_role' => 'root',
-    'children' => 
+    'children' =>
     array (
-        'index' => 
+        'index' =>
         array (
             'name' => 'index',
             'type' => 'action',
             'technology' => 'web',
             'mapped_to' => 'index',
-            'fields' => 
+            'fields' =>
             array (
-                0 => 
+                0 =>
                 array (
                     'name' => 'searchString',
                     'source' => 'query',
-                    'vulnerabilities' => 
+                    'vulnerabilities' =>
                     array (
-                        'vuln_list' => 
+                        'vuln_list' =>
                         array (
-                            'XSS' => 
+                            'SQL' =>
+                            array (
+                                'enabled' => true,
+                                'blind' => false,
+                            ),
+                            'XSS' =>
                             array (
                                 'enabled' => true,
                                 'stored' => false,
@@ -31,27 +36,27 @@ return array (
                         ),
                     ),
                 ),
-                1 => 
+                1 =>
                 array (
                     'name' => 'id',
                     'source' => 'query',
                 ),
-                2 => 
+                2 =>
                 array (
                     'name' => 'brands',
                     'source' => 'query',
                 ),
-                3 => 
+                3 =>
                 array (
                     'name' => 'price',
                     'source' => 'query',
                 ),
-                4 => 
+                4 =>
                 array (
                     'name' => 'quality',
                     'source' => 'query',
                 ),
-                5 => 
+                5 =>
                 array (
                     'name' => 'page',
                     'source' => 'query',
