@@ -9,8 +9,7 @@ return array(
         'searchString' => ['xss']
     ],
     'vulnerabilities' => [
-        'sql' => [ 
-            'enabled' => true,
+        'sql' => [
             'blind' => true
         ],
     ]
